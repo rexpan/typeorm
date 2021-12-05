@@ -24,7 +24,7 @@
   "main": "./index.js",
   "module": "./index.mjs",
   "types": "./index.d.ts",
-  "type": "commonjs",
+  "type": "module",
   "browser": {
     "./browser/connection/ConnectionOptionsReader.js": "./browser/platform/BrowserConnectionOptionsReaderDummy.js",
     "./browser/connection/options-reader/ConnectionOptionsXmlReader.js": "./browser/platform/BrowserConnectionOptionsReaderDummy.js",
@@ -96,6 +96,7 @@
     "conventional-changelog-angular": "^5.0.12",
     "conventional-changelog-cli": "^2.1.1",
     "del": "^6.0.0",
+    "esbuild": "^0.14.2",
     "eslint": "^7.20.0",
     "gulp": "^4.0.2",
     "gulp-eslint": "^6.0.0",

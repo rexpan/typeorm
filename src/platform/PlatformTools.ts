@@ -8,6 +8,9 @@ export {ReadStream} from "fs";
 export {EventEmitter} from "events";
 export {Readable, Writable} from "stream";
 
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+
 /**
  * Platform-specific tools.
  */

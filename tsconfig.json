@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
-        "lib": ["es5", "es6"],
+        "lib": ["es2019"],
         "outDir": "build/compiled",
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
-        "target": "es5",
-        "module": "commonjs",
+        "target": "es2019",
+        "module": "esnext",
         "moduleResolution": "node",
         "importHelpers": true,
         "emitDecoratorMetadata": true,
